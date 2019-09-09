@@ -25,6 +25,7 @@ int main(){
 		for(l = 0; l < 8; l++){
 			if(a[k] == b[l]){
 				printf("%d ", a[k]);
+				break;
 			}
 		}
 	}
